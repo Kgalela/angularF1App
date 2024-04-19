@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center; 
+  margin: auto; 
+  margin-top: 100px;
+  border-radius: 10px;
+  height: 300px;
+  margin: auto;
+  width: 500px;
+}
+
+.box {
+  width: 28%; 
+  height: 160px; 
+  margin: 0 2%;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+  height: 90px;
+}
+
+.green {
+  background-color: gold;
+  height: 150px,
+  
+
+}
+
+.blue {
+  background-color: blue;
+  height: 110px
+}
+
+.custom-width {
+  width: 1500px;
+}
+  
+

@@ -1,0 +1,12 @@
+<form>
+  <h1>Formula1</h1>
+  <h4>Select Year</h4>
+  <mat-form-field>
+    <mat-label>Select Year</mat-label>
+    <mat-select (valueChange)="selectedYear($event)">
+      @for (season of seasons; track season) {
+        <mat-option [value]="season">{{season}}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+</form>

@@ -1,0 +1,13 @@
+@if(info$ | async; as driver){
+    <div class="bordered-div">
+        <h3>Information</h3>
+    
+        <p><strong>Name</strong>{{driver.givenName + ' '+ driver.familyName}}</p>
+        <p><strong>Born</strong>{{driver.dateOfBirth}}</p>
+        <p><strong>nationality</strong>{{driver.nationality}}</p>
+    
+    
+    </div>
+}
+
+

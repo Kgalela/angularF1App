@@ -1,0 +1,14 @@
+@if(rounds$ | async; as rounds){
+<form>
+  <h4>Select Round</h4>
+  <mat-form-field>
+    <mat-label>Select Round</mat-label>
+    <mat-select (valueChange)="selectedRound($event)">
+      @for (round of rounds; track round)
+      {
+      <mat-option [value]="round">{{round.raceName}}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+</form>
+}

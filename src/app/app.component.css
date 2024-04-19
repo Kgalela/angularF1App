@@ -1,0 +1,26 @@
+
+
+.container {
+    display: flex;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.box1 {
+    flex: 1;
+    border: 1px solid #000;
+}
+
+.box2 {
+    flex: 1;
+    border: 1px solid #000;
+    
+}
+
+.box3 {
+    flex: 1;
+    border: 1px solid #000;
+}
+
